@@ -22,10 +22,15 @@ Provides simple analysis:
 
 • Vulnerable (Arbitrary Origin reflection with credentials allowed).
 
-### usage
+### Usage
+
 ```
-pip install request
+git clone https://github.com/AdnanApriliyansyahh/cros-misconfiguration-scanner
 ```
 ```
-python3 cros_poc.py https://target.com/
+pip install requests colorama urllib3
+```
+**Singel domain**
+```
+python3 main.py https://target.com -o output.txt
 ```
