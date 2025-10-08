@@ -30,7 +30,7 @@ def print_banner():
     ║              CORS MISCONFIGURATION                ║
     ║                   SCANNER                         ║
     ║                                                   ║
-    ║                         ║
+    ║                         
     ║                                                   ║
     ╚═══════════════════════════════════════════════════╝
     """
