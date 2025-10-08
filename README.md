@@ -28,9 +28,23 @@ Provides simple analysis:
 git clone https://github.com/AdnanApriliyansyahh/cros-misconfiguration-scanner
 ```
 ```
+cros-misconfiguration-scanner
+```
+```
 pip install requests colorama urllib3
 ```
-**Singel domain**
 ```
-python3 main.py https://target.com -o output.txt
+chmod +x cors_scanner.python
+```
+**Singel Domain**
+```
+python3 main.py -u https://target.com -o output.txt
+```
+**Multiple Domain**
+```
+python3 main.py -f subdomain.txt -o output.txt
+```
+**To set the number of threads**
+```
+python3 main.py -f subdomains.txt -t 20
 ```
